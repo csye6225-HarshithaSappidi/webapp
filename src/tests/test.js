@@ -18,7 +18,7 @@ describe("Health Check API Tests", () => {
 
   // Test for inserting a record and returning 200 OK
   test("GET /healthz should insert a record and return 200 OK", async () => {
-    const response = await request(app).get('/healthz');
+    llconst response = await request(app).get('/healthz');
     expect(response.statusCode).toBe(200);
     expect(response.text).toBe('');
 
