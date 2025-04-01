@@ -3,7 +3,7 @@ name: Packer Create Image for Node.js App
 on:
   push:
     branches:
-       - main 
+       - demo 
 jobs:
   packer-buildimage:
     runs-on: ubuntu-latest
